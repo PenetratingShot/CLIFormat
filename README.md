@@ -32,6 +32,15 @@ You can access the flagString, which in this case would be `--create` by doing `
 
 You can access the priority setting by doing `format.getTypeFlag`.
 
+##### Update 0.2.0
+
+- Added ability to parse data in between two "solid" flags (flags that will be in that specific order 100% of the time).
+
+Two new functions: 
+
+1. `CLIRegex.afterFlag(<string>, <flagString>)`
+2. `CLIRegex.betweenFlags(<string>, <firstFlag>, <secondFlag>)`
+
 #### Priority Settings
 
 Basically priority settings tell whether the flag can be ignored or not. This is a WIP feature and might be removed because I', not smart enough :/

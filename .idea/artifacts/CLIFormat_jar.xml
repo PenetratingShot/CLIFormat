@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CLIFormat:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/CLIFormat_jar</output-path>
+    <root id="archive" name="CLIFormat.jar">
+      <element id="module-output" name="CLIFormat" />
+    </root>
+  </artifact>
+</component>
