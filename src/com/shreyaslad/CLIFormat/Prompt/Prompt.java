@@ -8,13 +8,32 @@
 package com.shreyaslad.CLIFormat.Prompt;
 
 public abstract class Prompt {
-    private boolean isRecursive; // Determines whether the prompt is recursive or not
+    private boolean isRecursive; //Set whether the prompt is recursive or single comman
+    private char promptBeginCharacter; // Set the character to signify the start of a new prompt
 
-    public static boolean isRecursive() {
-        return recursive;
+    /**
+     *
+     * @param recursive Sets whether the prompt is recursive or not. Accessed from StringPrompts and NumericalPrompts, not the user
+     *                  
+     */
+    public void setRecursive(boolean recursive) {
+        this.isRecursive = recursive;
     }
 
-    public static void setRecursive(boolean isRecursive) {
-        this.isRecursive = isRecursive;
+    public void setBeginString(char character) {
+        this.promptBeginCharacter = character;
+    }
+
+    public boolean getIsRecursive() {
+        return isRecursive;
+    }
+
+    public char getPromptBeginCharacter() {
+        return promptBeginCharacter;
+    }
+
+    public Prompt(boolean recursive, char begin) {
+        setRecursive(recursive);
+
     }
 }
