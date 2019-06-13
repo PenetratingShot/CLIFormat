@@ -26,6 +26,30 @@ public class StringPrompt {
         this.beginCharacter = beginCharacter;
     }
 
+    public void setEscapeSequence(String escapeSequence) {
+        this.escapeSequence = escapeSequence;
+    }
+
+    public String getEscapeSequence() {
+        return this.escapeSequence;
+    }
+
+    public String getQuestion() {
+        return this.question;
+    }
+
+    public String getAnswer() {
+        return this.answer;
+    }
+
+    public LinkedList<String> getAllQuestions() {
+        return questionsList;
+    }
+
+    public LinkedList<String> getAllAnswers() {
+        return answersList;
+    }
+
     public boolean getIsRecursive() {
         return this.isRecursive;
     }
@@ -39,9 +63,10 @@ public class StringPrompt {
      * @param isRecursive Specify if the prompt is supposed to be recursive or single question based
      * @param character Specify the beginning character for the start of the prompt
      */
-    public StringPrompt(boolean isRecursive, char character) {
+    public StringPrompt(boolean isRecursive, char character, String escapeSequence) {
         setIsRecursive(isRecursive);
         setBeginCharacter(character);
+        setEscapeSequence(escapeSequence);
     }
 
     private LinkedList<String> questionsList = new LinkedList<>();

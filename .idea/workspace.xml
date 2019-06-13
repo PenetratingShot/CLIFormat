@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="13f80b22-43ce-4cea-b181-b2166eb5046a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/NumericalPrompt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/NumericalPrompt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Prompt.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/StringPrompt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/StringPrompt.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/StringPrompt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="78" column="117" selection-start-line="78" selection-start-column="117" selection-end-line="78" selection-end-column="117" />
+            <state relative-caret-position="1746">
+              <caret line="107" column="45" lean-forward="true" selection-start-line="107" selection-start-column="45" selection-end-line="107" selection-end-column="45" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -36,12 +34,22 @@
                 <element signature="e#486#487#0" expanded="true" />
                 <element signature="e#544#545#0" expanded="true" />
                 <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#716#717#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
+                <element signature="e#824#825#0" expanded="true" />
+                <element signature="e#886#887#0" expanded="true" />
+                <element signature="e#912#913#0" expanded="true" />
+                <element signature="e#959#960#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1053#1054#0" expanded="true" />
+                <element signature="e#1088#1089#0" expanded="true" />
+                <element signature="e#1137#1138#0" expanded="true" />
+                <element signature="e#1170#1171#0" expanded="true" />
                 <element signature="e#635#636#0" expanded="true" />
                 <element signature="e#674#675#0" expanded="true" />
                 <element signature="e#713#714#0" expanded="true" />
                 <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#589#597#0" expanded="true" />
-                <element signature="e#1259#1267#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -196,12 +204,29 @@
       <workItem from="1560373384708" duration="1407000" />
       <workItem from="1560378007745" duration="23000" />
       <workItem from="1560382466317" duration="1768000" />
-      <workItem from="1560394560223" duration="5353000" />
+      <workItem from="1560394560223" duration="5905000" />
     </task>
+    <task id="LOCAL-00001" summary="Created recursive prompt with escape sequence.">
+      <created>1560458820662</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560458820662</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16342000" />
+    <option name="totallyTimeSpent" value="16894000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="0" />
@@ -273,6 +298,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created recursive prompt with escape sequence." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created recursive prompt with escape sequence." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Main.java" />
@@ -351,8 +380,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/StringPrompt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="78" column="117" selection-start-line="78" selection-start-column="117" selection-end-line="78" selection-end-column="117" />
+        <state relative-caret-position="1746">
+          <caret line="107" column="45" lean-forward="true" selection-start-line="107" selection-start-column="45" selection-end-line="107" selection-end-column="45" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -360,12 +389,22 @@
             <element signature="e#486#487#0" expanded="true" />
             <element signature="e#544#545#0" expanded="true" />
             <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#959#960#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1137#1138#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
             <element signature="e#635#636#0" expanded="true" />
             <element signature="e#674#675#0" expanded="true" />
             <element signature="e#713#714#0" expanded="true" />
             <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#589#597#0" expanded="true" />
-            <element signature="e#1259#1267#0" expanded="true" />
           </folding>
         </state>
       </provider>
