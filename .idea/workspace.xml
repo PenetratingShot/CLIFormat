@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="13f80b22-43ce-4cea-b181-b2166eb5046a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/StringPrompt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/StringPrompt.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,13 +23,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/StringPrompt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1746">
-              <caret line="107" column="45" lean-forward="true" selection-start-line="107" selection-start-column="45" selection-end-line="107" selection-end-column="45" />
+            <state relative-caret-position="-723">
+              <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#0#3899#0" expanded="true" />
                 <element signature="imports" expanded="true" />
                 <element signature="e#440#441#0" expanded="true" />
                 <element signature="e#486#487#0" expanded="true" />
@@ -51,6 +52,18 @@
                 <element signature="e#713#714#0" expanded="true" />
                 <element signature="e#755#756#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="92">
+                <caret line="36" selection-start-line="36" selection-end-line="36" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -88,11 +101,11 @@
         <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Main.java" />
         <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Format.java" />
         <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Regex.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/CLIRegex.java" />
         <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Prompt.java" />
         <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/NumericalPrompt.java" />
         <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/StringPrompt.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -169,10 +182,9 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.shreyaslad.CLIFormat.Main" />
+    <configuration name="StringPrompt" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.shreyaslad.CLIFormat.Prompt.StringPrompt" />
       <module name="CLIFormat" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
@@ -181,7 +193,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.StringPrompt" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +216,7 @@
       <workItem from="1560373384708" duration="1407000" />
       <workItem from="1560378007745" duration="23000" />
       <workItem from="1560382466317" duration="1768000" />
-      <workItem from="1560394560223" duration="5905000" />
+      <workItem from="1560394560223" duration="8545000" />
     </task>
     <task id="LOCAL-00001" summary="Created recursive prompt with escape sequence.">
       <created>1560458820662</created>
@@ -213,11 +225,25 @@
       <option name="project" value="LOCAL" />
       <updated>1560458820662</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Set the escape sequence, get the last answer, last question, all questions, or all answers">
+      <created>1560459298141</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560459298141</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Support for single-question mode">
+      <created>1560460546992</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560460546992</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16894000" />
+    <option name="totallyTimeSpent" value="19534000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -232,7 +258,7 @@
     <frame x="0" y="23" width="1440" height="807" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28183118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1702432" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -301,20 +327,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created recursive prompt with escape sequence." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created recursive prompt with escape sequence." />
+    <MESSAGE value="Set the escape sequence, get the last answer, last question, all questions, or all answers" />
+    <MESSAGE value="Support for single-question mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="Support for single-question mode" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Main.java" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="321">
-            <caret line="41" column="63" selection-start-line="36" selection-end-line="41" selection-end-column="63" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/CLIRegex.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
@@ -380,10 +398,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/StringPrompt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1746">
-          <caret line="107" column="45" lean-forward="true" selection-start-line="107" selection-start-column="45" selection-end-line="107" selection-end-column="45" />
+        <state relative-caret-position="-723">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#0#3899#0" expanded="true" />
             <element signature="imports" expanded="true" />
             <element signature="e#440#441#0" expanded="true" />
             <element signature="e#486#487#0" expanded="true" />
@@ -406,6 +424,16 @@
             <element signature="e#713#714#0" expanded="true" />
             <element signature="e#755#756#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="36" selection-start-line="36" selection-end-line="36" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

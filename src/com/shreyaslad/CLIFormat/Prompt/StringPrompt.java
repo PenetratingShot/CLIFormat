@@ -28,15 +28,15 @@ public class StringPrompt {
     /**
      * @param isRecursive Boolean value to set whether it is recursive or single question
      */
-    public void setIsRecursive(boolean isRecursive) {
+    private void setIsRecursive(boolean isRecursive) {
         this.isRecursive = isRecursive;
     }
 
-    public void setBeginCharacter(char beginCharacter) {
+    private void setBeginCharacter(char beginCharacter) {
         this.beginCharacter = beginCharacter;
     }
 
-    public void setEscapeSequence(String escapeSequence) {
+    private void setEscapeSequence(String escapeSequence) {
         this.escapeSequence = escapeSequence;
     }
 
