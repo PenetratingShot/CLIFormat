@@ -3,12 +3,22 @@
  * @author Shreyas Lad
  */
 
+/**
+ * TODO:
+ *
+ * 1. Add user supplying arrays of questions in recursive mode (this can be done in a later release)
+ * 2. Add custom escape messages
+ * 3. Add prompt titles
+ * 4. Converting and parsing multiple values with a defined separator
+ */
+
 package com.shreyaslad.CLIFormat.Prompt;
 
 import java.util.LinkedList;
 import java.util.Scanner;
 
 public class StringPrompt {
+
     private boolean isRecursive;
     private char beginCharacter;
     private String question;
@@ -60,8 +70,9 @@ public class StringPrompt {
 
     /**
      * {@code StringPrompt prompt = new StringPrompt(true, '> ');}
-     * @param isRecursive Specify if the prompt is supposed to be recursive or single question based
+     * @param isRecursive Boolean value to set whether it is recursive or single question
      * @param character Specify the beginning character for the start of the prompt
+     * @param escapeSequence The sequence that the user has to enter in order to exit the prompt
      */
     public StringPrompt(boolean isRecursive, char character, String escapeSequence) {
         setIsRecursive(isRecursive);
@@ -71,15 +82,13 @@ public class StringPrompt {
 
     private LinkedList<String> questionsList = new LinkedList<>();
     private LinkedList<String> answersList = new LinkedList<>();
-    // TODO: Set public getters for these two lists
 
     public void setNextQuestion(String question) {
-        this.question = question;
-
         if (isRecursive) {
-            keep();
+            throw new IllegalArgumentException("You cannot set a question in recursive mode. Switch to single question mode to enable this.");
         } else {
-            // Create single question prompt some∞∞where below and reference here
+            this.question = question;
+            notRecursive();
         }
 
         if (beginCharacter == ' ') {
@@ -96,9 +105,7 @@ public class StringPrompt {
     private void keep() {
         try {
             Scanner scanner = new Scanner(System.in);
-            questionsList.add(question);
             System.out.println(this.beginCharacter);
-            System.out.println(question);
             this.answer = scanner.nextLine();
             if (this.answer.equals(escapeSequence)) {
                 // Instead of clearing the question and answer list, define functions above which the user can invoke
@@ -108,6 +115,25 @@ public class StringPrompt {
                 answersList.add(this.answer);
             }
             keep();
+
+        } catch (IllegalArgumentException ex) {
+            System.out.println(ex.getMessage());
+        }
+    }
+
+    private void notRecursive() {
+        try {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println(this.question);
+            System.out.println(this.beginCharacter);
+            this.answer = scanner.nextLine();
+            if (this.answer.equals(escapeSequence)) {
+                // Instead of clearing the question and answer list, define functions above which the user can invoke
+                System.out.println("\nExiting...\n");
+                System.exit(0);
+            } else {
+                answersList.add(this.answer);
+            }
 
         } catch (IllegalArgumentException ex) {
             System.out.println(ex.getMessage());
