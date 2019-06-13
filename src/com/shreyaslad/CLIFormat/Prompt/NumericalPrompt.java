@@ -6,6 +6,6 @@
 
 package com.shreyaslad.CLIFormat.Prompt;
 
-public class NumericalPrompt extends Prompt {
+public class NumericalPrompt {
 
 }
