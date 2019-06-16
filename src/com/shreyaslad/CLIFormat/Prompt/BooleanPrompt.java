@@ -31,6 +31,7 @@ public class BooleanPrompt {
         }
     }
 
+    @SuppressWarnings("Duplicates")
     public LinkedList<Boolean> createPromptWithMultipleQuestions(String[] questions) {
         this.questions = questions;
         Scanner scanner = new Scanner(System.in);
@@ -49,7 +50,6 @@ public class BooleanPrompt {
                 this.lastAnswer = defaultChoice;
                 answers.add(defaultChoice);
             } else {
-                // put recursive prompt here (god this is going to be hard)
                 keep();
             }
         }
@@ -69,6 +69,7 @@ public class BooleanPrompt {
     }
 
     // yes IntelliJ I know that it's duplicate code that's the entire point
+    @SuppressWarnings("Duplicates")
     private void keep() {
         Scanner scanner = new Scanner(System.in);
         if (this.currentQuestion.equals(this.lastQuestionInArray)) {
@@ -84,7 +85,6 @@ public class BooleanPrompt {
                 this.lastAnswer = defaultChoice;
                 answers.add(defaultChoice);
             } else {
-                // put recursive prompt here (god this is going to be hard)
                 keep();
             }
         }

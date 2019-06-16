@@ -7,11 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13f80b22-43ce-4cea-b181-b2166eb5046a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CLIFormat_jar/CLIFormat.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CLIFormat_jar/CLIFormat.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/NumericalPrompt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/StringPrompt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/StringPrompt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,12 +59,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+            <state relative-caret-position="1294">
+              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#863#894#0" expanded="true" />
                 <element signature="e#2353#2354#0" expanded="true" />
                 <element signature="e#2379#2380#0" expanded="true" />
+                <element signature="e#2428#2459#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -213,7 +211,7 @@
       <workItem from="1560382466317" duration="1768000" />
       <workItem from="1560394560223" duration="11084000" />
       <workItem from="1560469009535" duration="195000" />
-      <workItem from="1560541332758" duration="11538000" />
+      <workItem from="1560541332758" duration="12299000" />
     </task>
     <task id="LOCAL-00001" summary="Created recursive prompt with escape sequence.">
       <created>1560458820662</created>
@@ -247,7 +245,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33806000" />
+    <option name="totallyTimeSpent" value="34567000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,12 +435,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        <state relative-caret-position="1294">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#863#894#0" expanded="true" />
             <element signature="e#2353#2354#0" expanded="true" />
             <element signature="e#2379#2380#0" expanded="true" />
+            <element signature="e#2428#2459#0" expanded="true" />
           </folding>
         </state>
       </provider>
