@@ -1,6 +1,12 @@
 /***
  * StringPrompt.java
+ * Copyright Shreyas Lad 2019
+ *
  * @author Shreyas Lad
+ *
+ * This class is used for creating recursive or single question prompts which return a string. For the sake of simplicity, functions will also be enclosed for type conversion
+ * Also this shit is broken for now :/
+ * Will be broken even after BooleanPrompt is released
  */
 
 /**
@@ -19,16 +25,17 @@ import java.util.Scanner;
 
 public class StringPrompt {
 
-    private boolean isRecursive;
+    private int isRecursive;
     private char beginCharacter;
     private String question;
     private String answer;
     private String escapeSequence;
+    private String[] questions;
 
     /**
      * @param isRecursive Boolean value to set whether it is recursive or single question
      */
-    private void setIsRecursive(boolean isRecursive) {
+    private void setIsRecursive(int isRecursive) {
         this.isRecursive = isRecursive;
     }
 
@@ -48,6 +55,10 @@ public class StringPrompt {
         return this.question;
     }
 
+    public String[] getQuestions() {
+        return this.questions;
+    }
+
     public String getAnswer() {
         return this.answer;
     }
@@ -60,7 +71,7 @@ public class StringPrompt {
         return answersList;
     }
 
-    public boolean getIsRecursive() {
+    public int getIsRecursive() {
         return this.isRecursive;
     }
 
@@ -74,7 +85,7 @@ public class StringPrompt {
      * @param character Specify the beginning character for the start of the prompt
      * @param escapeSequence The sequence that the user has to enter in order to exit the prompt
      */
-    public StringPrompt(boolean isRecursive, char character, String escapeSequence) {
+    public StringPrompt(int isRecursive, char character, String escapeSequence) {
         setIsRecursive(isRecursive);
         setBeginCharacter(character);
         setEscapeSequence(escapeSequence);
@@ -83,12 +94,26 @@ public class StringPrompt {
     private LinkedList<String> questionsList = new LinkedList<>();
     private LinkedList<String> answersList = new LinkedList<>();
 
-    public void setNextQuestion(String question) {
-        if (isRecursive) {
-            throw new IllegalArgumentException("You cannot set a question in recursive mode. Switch to single question mode to enable this.");
+    public void setQuestions(String[] questions) {
+        this.questions = questions;
+
+        if (isRecursive == 1) {
+            for (int i = 0; i <= questions.length; i++) {
+
+            }
         } else {
+            throw new IllegalArgumentException("Cannot use this function for isRecursive values of anything other than 1.");
+        }
+    }
+
+    public void setNextQuestion(String question) {
+        if (isRecursive == 0) {
+            keep();
+        } else if (isRecursive == 2) {
             this.question = question;
             notRecursive();
+        } else {
+            throw new IllegalArgumentException("Cannot use this function for isRecursive values of anything other than 0 or 2.");
         }
 
         if (beginCharacter == ' ') {
