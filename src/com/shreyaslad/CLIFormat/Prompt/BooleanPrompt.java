@@ -16,7 +16,7 @@ public class BooleanPrompt {
 
     private char character;
     private char character2;
-
+    
     public BooleanPrompt(char beginPromptCharacter, boolean defaultChoice) {
         this.beginPromptCharacter = beginPromptCharacter;
         this.defaultChoice = defaultChoice;

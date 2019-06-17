@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13f80b22-43ce-4cea-b181-b2166eb5046a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/BooleanPrompt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +42,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="357">
+              <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -93,7 +93,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,7 +127,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,6 +193,7 @@
       <workItem from="1560731058476" duration="248000" />
       <workItem from="1560731557654" duration="523000" />
       <workItem from="1560732184902" duration="509000" />
+      <workItem from="1560732909250" duration="167000" />
     </task>
     <task id="LOCAL-00001" summary="Created recursive prompt with escape sequence.">
       <created>1560458820662</created>
@@ -226,7 +227,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36462000" />
+    <option name="totallyTimeSpent" value="36629000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -239,8 +240,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18311875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18526466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -369,7 +371,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/NumericalPrompt.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java" />
     <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/StringPrompt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1743">
@@ -388,8 +389,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="357">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
         </state>
       </provider>
     </entry>
