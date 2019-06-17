@@ -7,11 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13f80b22-43ce-4cea-b181-b2166eb5046a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CLIFormat_jar/CLIFormat.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CLIFormat_jar/CLIFormat.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CLIFormat/com/shreyaslad/CLIFormat/Prompt/NumericalPrompt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CLIFormat/com/shreyaslad/CLIFormat/Prompt/StringPrompt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CLIFormat/com/shreyaslad/CLIFormat/Prompt/StringPrompt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/BooleanPrompt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/BooleanPrompt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,10 +40,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/BooleanPrompt.java">
+        <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+            <state relative-caret-position="84">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -78,8 +74,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/NumericalPrompt.java" />
         <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/StringPrompt.java" />
-        <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java" />
         <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/BooleanPrompt.java" />
+        <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java" />
       </list>
     </option>
   </component>
@@ -196,7 +192,7 @@
       <workItem from="1560730667981" duration="290000" />
       <workItem from="1560731058476" duration="248000" />
       <workItem from="1560731557654" duration="523000" />
-      <workItem from="1560732184902" duration="266000" />
+      <workItem from="1560732184902" duration="509000" />
     </task>
     <task id="LOCAL-00001" summary="Created recursive prompt with escape sequence.">
       <created>1560458820662</created>
@@ -230,7 +226,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36219000" />
+    <option name="totallyTimeSpent" value="36462000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,10 +386,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/BooleanPrompt.java">
+    <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+        <state relative-caret-position="84">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>

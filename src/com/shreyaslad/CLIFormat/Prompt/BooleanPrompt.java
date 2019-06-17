@@ -1,4 +1,4 @@
-package com.shreyaslad.CLIFormat;
+package com.shreyaslad.CLIFormat.Prompt;
 
 import java.util.LinkedList;
 import java.util.Scanner;
