@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"com.shreyaslad.CLIFormat"},{"l":"com.shreyaslad.CLIFormat.Prompt"}]
