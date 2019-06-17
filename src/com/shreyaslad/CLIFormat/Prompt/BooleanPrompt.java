@@ -13,7 +13,6 @@ public class BooleanPrompt {
     private char beginPromptCharacter;
     private String currentQuestion;
     private String lastQuestionInArray;
-    private boolean middleAnswer;
 
     private char character;
     private char character2;
@@ -61,12 +60,22 @@ public class BooleanPrompt {
         return answers;
     }
 
+    @SuppressWarnings("Duplicates")
     public void createPromptWithOneQuestion(String question) {
         this.question = question;
         Scanner scanner = new Scanner(System.in);
         System.out.println(beginPromptCharacter + " " + question + "[" + character + "/" + character2 + "]: ");
         this.answer = scanner.next();
-        this.middleAnswer = Boolean.parseBoolean(this.answer); //Confusing, I know
+        if (this.answer.toLowerCase().equals("y") || this.answer.toLowerCase().equals("yes")) {
+            this.lastAnswer = true;
+        } else if (this.answer.toLowerCase().equals("n") || this.answer.toLowerCase().equals("no")) {
+            this.lastAnswer = false;
+        } else if (this.answer.toLowerCase().equals("")) {
+            this.lastAnswer = this.defaultChoice;
+        } else {
+            keep2();
+        }
+        boolean middleAnswer = Boolean.parseBoolean(this.answer); // Solves weird bug where outputted answer is inverse of what user inputted
         this.lastAnswer = !middleAnswer;
     }
 
@@ -74,6 +83,7 @@ public class BooleanPrompt {
         return this.lastAnswer;
     }
 
+    // Recursive functions for when the user enters something other than the desired inputs
     @SuppressWarnings("Duplicates")
     private void keep() {
         Scanner scanner = new Scanner(System.in);
@@ -92,6 +102,22 @@ public class BooleanPrompt {
             } else {
                 keep();
             }
+        }
+    }
+
+    @SuppressWarnings("Duplicates")
+    private void keep2() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(beginPromptCharacter + " " + question + "[" + character + "/" + character2 + "]: ");
+        this.answer = scanner.next();
+        if (this.answer.toLowerCase().equals("y") || this.answer.toLowerCase().equals("yes")) {
+            this.lastAnswer = true;
+        } else if (this.answer.toLowerCase().equals("n") || this.answer.toLowerCase().equals("no")) {
+            this.lastAnswer = false;
+        } else if (this.answer.toLowerCase().equals("")) {
+            this.lastAnswer = this.defaultChoice;
+        } else {
+            keep2();
         }
     }
 }
