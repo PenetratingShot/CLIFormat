@@ -1,4 +1,4 @@
-package com.shreyaslad.CLIFormat.Prompt;
+package com.shreyaslad.CLIFormat;
 
 import java.util.LinkedList;
 import java.util.Scanner;
@@ -7,7 +7,7 @@ public class BooleanPrompt {
     private boolean defaultChoice;
     private String question;
     private String[] questions;
-    private LinkedList<Boolean> answers;
+    private LinkedList<Boolean> answers = new LinkedList<>();
     private String answer;
     private boolean lastAnswer;
     private char beginPromptCharacter;
@@ -32,20 +32,21 @@ public class BooleanPrompt {
     }
 
     @SuppressWarnings("Duplicates")
-    public LinkedList<Boolean> createPromptWithMultipleQuestions(String[] questions) {
+    public void createPromptWithMultipleQuestions(String[] questions) {
         this.questions = questions;
         Scanner scanner = new Scanner(System.in);
         for (int i = 0; i < questions.length; i++) {
             this.currentQuestion = questions[i];
-            this.lastQuestionInArray = questions[i-1];
-            System.out.println(beginPromptCharacter + " " + questions[i] + "[" + character + "/" + character2 + "]: ");
+            this.lastQuestionInArray = questions[questions.length-1];
+            System.out.println(questions[i] + " " + "[" + character + "/" + character2 + "]: ");
+            System.out.println(beginPromptCharacter + " ");
             this.answer = scanner.next();
             if (this.answer.toLowerCase().equals("y") ||  this.answer.toLowerCase().equals("yes")) {
-                answers.add(true);
                 this.lastAnswer = true;
+                answers.add(true);
             } else if (this.answer.toLowerCase().equals("n") || this.answer.toLowerCase().equals("no")) {
-                answers.add(false);
                 this.lastAnswer = false;
+                answers.add(false);
             } else if (this.answer.equals(Boolean.toString(defaultChoice))) {
                 this.lastAnswer = defaultChoice;
                 answers.add(defaultChoice);
@@ -53,22 +54,25 @@ public class BooleanPrompt {
                 keep();
             }
         }
+    }
+
+    public LinkedList<Boolean> getAllAnswers() {
         return answers;
     }
 
-    public String createPromptWithOneQuestion(String question) {
+    public boolean createPromptWithOneQuestion(String question) {
         this.question = question;
         Scanner scanner = new Scanner(System.in);
-        System.out.println(question);
+        System.out.println(beginPromptCharacter + " " + question + "[" + character + "/" + character2 + "]: ");
         this.answer = scanner.next();
-        return answer;
+        this.lastAnswer = Boolean.parseBoolean(this.answer);
+        return !lastAnswer;
     }
 
     public boolean getLastAnswer() {
         return this.lastAnswer;
     }
 
-    // yes IntelliJ I know that it's duplicate code that's the entire point
     @SuppressWarnings("Duplicates")
     private void keep() {
         Scanner scanner = new Scanner(System.in);
