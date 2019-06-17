@@ -33,26 +33,35 @@ public class BooleanPrompt {
 
     @SuppressWarnings("Duplicates")
     public void createPromptWithMultipleQuestions(String[] questions) {
-        this.questions = questions;
-        Scanner scanner = new Scanner(System.in);
-        for (int i = 0; i < questions.length; i++) {
-            this.currentQuestion = questions[i];
-            this.lastQuestionInArray = questions[questions.length-1];
-            System.out.println(questions[i] + " " + "[" + character + "/" + character2 + "]: ");
-            System.out.println(beginPromptCharacter + " ");
-            this.answer = scanner.next();
-            if (this.answer.toLowerCase().equals("y") ||  this.answer.toLowerCase().equals("yes")) {
-                this.lastAnswer = true;
-                answers.add(true);
-            } else if (this.answer.toLowerCase().equals("n") || this.answer.toLowerCase().equals("no")) {
-                this.lastAnswer = false;
-                answers.add(false);
-            } else if (this.answer.equals("")) {
-                this.lastAnswer = defaultChoice;
-                answers.add(defaultChoice);
-            } else {
-                keep(); // If none of the actual characters are supplied, then re-prompt the question
+
+        if (questions.length == 0) {
+            throw new ArrayIndexOutOfBoundsException("No questions supplied in array");
+        }
+
+        try {
+            this.questions = questions;
+            Scanner scanner = new Scanner(System.in);
+            for (int i = 0; i < questions.length; i++) {
+                this.currentQuestion = questions[i];
+                this.lastQuestionInArray = questions[questions.length-1];
+                System.out.println(questions[i] + " " + "[" + character + "/" + character2 + "]: ");
+                System.out.println(beginPromptCharacter + " ");
+                this.answer = scanner.next();
+                if (this.answer.toLowerCase().equals("y") ||  this.answer.toLowerCase().equals("yes")) {
+                    this.lastAnswer = true;
+                    answers.add(true);
+                } else if (this.answer.toLowerCase().equals("n") || this.answer.toLowerCase().equals("no")) {
+                    this.lastAnswer = false;
+                    answers.add(false);
+                } else if (this.answer.equals("")) {
+                    this.lastAnswer = defaultChoice;
+                    answers.add(defaultChoice);
+                } else {
+                    keep(); // If none of the actual characters are supplied, then re-prompt the question
+                }
             }
+        } catch (ArrayIndexOutOfBoundsException ex) {
+            System.out.println(ex.getMessage());
         }
     }
 
@@ -88,21 +97,19 @@ public class BooleanPrompt {
     @SuppressWarnings("Duplicates")
     private void keep() {
         Scanner scanner = new Scanner(System.in);
-        if (this.currentQuestion.equals(this.lastQuestionInArray)) {
-            System.out.println(currentQuestion);
-            this.answer = scanner.next();
-            if (this.answer.toLowerCase().equals("y") ||  this.answer.toLowerCase().equals("yes")) {
-                answers.add(true);
-                this.lastAnswer = true;
-            } else if (this.answer.toLowerCase().equals("n") || this.answer.toLowerCase().equals("no")) {
-                answers.add(false);
-                this.lastAnswer = false;
-            } else if (this.answer.equals(Boolean.toString(defaultChoice))) {
-                this.lastAnswer = defaultChoice;
-                answers.add(defaultChoice);
-            } else {
-                keep();
-            }
+        System.out.println(currentQuestion);
+        this.answer = scanner.next();
+        if (this.answer.toLowerCase().equals("y") ||  this.answer.toLowerCase().equals("yes")) {
+            answers.add(true);
+            this.lastAnswer = true;
+        } else if (this.answer.toLowerCase().equals("n") || this.answer.toLowerCase().equals("no")) {
+            answers.add(false);
+            this.lastAnswer = false;
+        } else if (this.answer.equals(Boolean.toString(defaultChoice))) {
+            this.lastAnswer = defaultChoice;
+            answers.add(defaultChoice);
+        } else {
+            keep();
         }
     }
 
