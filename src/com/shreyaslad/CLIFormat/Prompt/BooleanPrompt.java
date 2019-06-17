@@ -64,7 +64,8 @@ public class BooleanPrompt {
     public void createPromptWithOneQuestion(String question) {
         this.question = question;
         Scanner scanner = new Scanner(System.in);
-        System.out.println(beginPromptCharacter + " " + question + "[" + character + "/" + character2 + "]: ");
+        System.out.println(question + "[" + character + "/" + character2 + "]: ");
+        System.out.println(beginPromptCharacter + " ");
         this.answer = scanner.next();
         if (this.answer.toLowerCase().equals("y") || this.answer.toLowerCase().equals("yes")) {
             this.lastAnswer = true;
