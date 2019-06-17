@@ -13,6 +13,7 @@ public class BooleanPrompt {
     private char beginPromptCharacter;
     private String currentQuestion;
     private String lastQuestionInArray;
+    private boolean middleAnswer;
 
     private char character;
     private char character2;
@@ -60,13 +61,13 @@ public class BooleanPrompt {
         return answers;
     }
 
-    public boolean createPromptWithOneQuestion(String question) {
+    public void createPromptWithOneQuestion(String question) {
         this.question = question;
         Scanner scanner = new Scanner(System.in);
         System.out.println(beginPromptCharacter + " " + question + "[" + character + "/" + character2 + "]: ");
         this.answer = scanner.next();
-        this.lastAnswer = Boolean.parseBoolean(this.answer);
-        return !lastAnswer;
+        this.middleAnswer = Boolean.parseBoolean(this.answer); //Confusing, I know
+        this.lastAnswer = !middleAnswer;
     }
 
     public boolean getLastAnswer() {
