@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13f80b22-43ce-4cea-b181-b2166eb5046a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,8 +43,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="77" column="25" lean-forward="true" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
+            <state relative-caret-position="448">
+              <caret line="54" column="101" selection-start-line="54" selection-start-column="101" selection-end-line="54" selection-end-column="101" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,7 +197,8 @@
       <workItem from="1560731058476" duration="248000" />
       <workItem from="1560731557654" duration="523000" />
       <workItem from="1560732184902" duration="509000" />
-      <workItem from="1560732909250" duration="831000" />
+      <workItem from="1560732909250" duration="1105000" />
+      <workItem from="1560738548677" duration="773000" />
     </task>
     <task id="LOCAL-00001" summary="Created recursive prompt with escape sequence.">
       <created>1560458820662</created>
@@ -227,7 +232,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37293000" />
+    <option name="totallyTimeSpent" value="38340000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -240,8 +245,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="807" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18526466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1874106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -388,8 +394,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="77" column="25" lean-forward="true" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
+        <state relative-caret-position="448">
+          <caret line="54" column="101" selection-start-line="54" selection-start-column="101" selection-end-line="54" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

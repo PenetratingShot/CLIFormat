@@ -48,11 +48,11 @@ public class BooleanPrompt {
             } else if (this.answer.toLowerCase().equals("n") || this.answer.toLowerCase().equals("no")) {
                 this.lastAnswer = false;
                 answers.add(false);
-            } else if (this.answer.equals(Boolean.toString(defaultChoice))) {
+            } else if (this.answer.equals("")) {
                 this.lastAnswer = defaultChoice;
                 answers.add(defaultChoice);
             } else {
-                keep();
+                keep(); // If none of the actual characters are supplied, then re-prompt the question
             }
         }
     }
