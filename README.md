@@ -30,6 +30,49 @@ You can access the flagString, which in this case would be `--create` by doing `
 
 You can access the priority setting by doing `format.getTypeFlag`.
 
+## Usage
+
+This is only updated for BooleanPrompt because that's the only thing that works so far and the only one I've invested time into so far
+
+### BooleanPrompt
+
+`public BooleanPrompt(char beginPromptCharacter, boolean defaultChoice)`
+
+`public void createPromptWithMultipleQuestions(String[] questions)`
+
+`public void createPromptWithOneQuestion(String question)`
+
+`public LinkedList<Boolean> getAllAnswers()`
+
+`public boolean getLastAnswer()`
+
+#### Examples
+
+```java
+// Creating a prompt with multiple questions
+import com.shreyaslad.CLIFormat.Prompts.BooleanPrompt;
+
+String[] questions = {"Question 1?", "Question 2?", "Question 3?"};
+BooleanPrompt booleanPrompt = new BooleanPrompt('>', true);
+
+booleanPrompt.createPromptWithMultipleQuestions(questions);
+LinkedList<Boolean> list = booleanPrompt.getAllAnswers();
+
+System.out.println(list);
+```
+
+```java
+// Creating a prompt with one question
+import com.shreyaslad.CLIFormat.Prompts.BooleanPrompt;
+
+BooleanPrompt booleanPrompt = new BooleanPrompt('>', true);
+booleanPrompt.createPromptWithOneQuestion("Continue?");
+
+boolean answer = booleanPrompt.getAnswer();
+
+System.out.println(answer);
+```
+
 #### Update 0.3.1
 
 The StringPrompt class now has support for creating recursive and single question prompts. Note that you cannot supply questions when your prompt is in recursive mode.

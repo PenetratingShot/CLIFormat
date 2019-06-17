@@ -7,7 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13f80b22-43ce-4cea-b181-b2166eb5046a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,16 +39,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="76" column="9" lean-forward="true" selection-start-line="66" selection-start-column="8" selection-end-line="76" selection-end-column="9" />
+            <state relative-caret-position="246">
+              <caret line="82" column="31" lean-forward="true" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3143#3144#0" expanded="true" />
-                <element signature="e#4032#4063#0" expanded="true" />
+                <element signature="e#2222#2253#0" expanded="true" />
+                <element signature="e#3204#3205#0" expanded="true" />
+                <element signature="e#4120#4151#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="594">
+                <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -76,11 +89,11 @@
         <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Regex.java" />
         <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/CLIRegex.java" />
         <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Prompt.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/NumericalPrompt.java" />
         <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/StringPrompt.java" />
         <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/BooleanPrompt.java" />
         <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -199,7 +212,7 @@
       <workItem from="1560731557654" duration="523000" />
       <workItem from="1560732184902" duration="509000" />
       <workItem from="1560732909250" duration="1105000" />
-      <workItem from="1560738548677" duration="1307000" />
+      <workItem from="1560738548677" duration="1823000" />
     </task>
     <task id="LOCAL-00001" summary="Created recursive prompt with escape sequence.">
       <created>1560458820662</created>
@@ -233,7 +246,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38874000" />
+    <option name="totallyTimeSpent" value="39390000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -366,16 +379,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Prompt.java" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="672">
-            <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/NumericalPrompt.java" />
     <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/StringPrompt.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -395,13 +398,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="76" column="9" lean-forward="true" selection-start-line="66" selection-start-column="8" selection-end-line="76" selection-end-column="9" />
+        <state relative-caret-position="246">
+          <caret line="82" column="31" lean-forward="true" selection-start-line="82" selection-start-column="31" selection-end-line="82" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3143#3144#0" expanded="true" />
-            <element signature="e#4032#4063#0" expanded="true" />
+            <element signature="e#2222#2253#0" expanded="true" />
+            <element signature="e#3204#3205#0" expanded="true" />
+            <element signature="e#4120#4151#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="594">
+            <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
