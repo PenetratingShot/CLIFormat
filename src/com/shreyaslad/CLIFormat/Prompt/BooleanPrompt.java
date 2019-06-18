@@ -45,7 +45,7 @@ public class BooleanPrompt {
                 this.currentQuestion = questions[i];
                 this.lastQuestionInArray = questions[questions.length-1];
                 System.out.println(questions[i] + " " + "[" + character + "/" + character2 + "]: ");
-                System.out.println(beginPromptCharacter + " ");
+                System.out.print(beginPromptCharacter + " ");
                 this.answer = scanner.next();
                 if (this.answer.toLowerCase().equals("y") ||  this.answer.toLowerCase().equals("yes")) {
                     this.lastAnswer = true;
@@ -71,22 +71,29 @@ public class BooleanPrompt {
 
     @SuppressWarnings("Duplicates")
     public void createPromptWithOneQuestion(String question) {
-        this.question = question;
-        Scanner scanner = new Scanner(System.in);
-        System.out.println(question + "[" + character + "/" + character2 + "]: ");
-        System.out.println(beginPromptCharacter + " ");
-        this.answer = scanner.next();
-        if (this.answer.toLowerCase().equals("y") || this.answer.toLowerCase().equals("yes")) {
-            this.lastAnswer = true;
-        } else if (this.answer.toLowerCase().equals("n") || this.answer.toLowerCase().equals("no")) {
-            this.lastAnswer = false;
-        } else if (this.answer.toLowerCase().equals("")) {
-            this.lastAnswer = this.defaultChoice;
-        } else {
-            keep2();
+        if (question.equals("")) {
+            throw new IllegalArgumentException("Question is empty");
         }
-        boolean middleAnswer = Boolean.parseBoolean(this.answer); // Solves weird bug where outputted answer is inverse of what user inputted
-        this.lastAnswer = !middleAnswer;
+
+        try {
+            this.question = question;
+            Scanner scanner = new Scanner(System.in);
+            System.out.println(question + "[" + character + "/" + character2 + "]: ");
+            System.out.print(beginPromptCharacter + " ");
+            this.answer = scanner.next();
+            if (this.answer.toLowerCase().equals("y") || this.answer.toLowerCase().equals("yes")) {
+                this.lastAnswer = true;
+            } else if (this.answer.toLowerCase().equals("n") || this.answer.toLowerCase().equals("no")) {
+                this.lastAnswer = false;
+            } else if (this.answer.toLowerCase().equals("")) {
+                this.lastAnswer = this.defaultChoice;
+            } else {
+                keep2();
+            }
+
+        } catch (IllegalArgumentException ex) {
+            System.out.println(ex.getMessage());
+        }
     }
 
     public boolean getLastAnswer() {
@@ -97,7 +104,8 @@ public class BooleanPrompt {
     @SuppressWarnings("Duplicates")
     private void keep() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println(currentQuestion);
+        System.out.println(currentQuestion + " " + "[" + character + "/" + character2 + "]: ");
+        System.out.print(beginPromptCharacter + " ");
         this.answer = scanner.next();
         if (this.answer.toLowerCase().equals("y") ||  this.answer.toLowerCase().equals("yes")) {
             answers.add(true);
@@ -116,7 +124,8 @@ public class BooleanPrompt {
     @SuppressWarnings("Duplicates")
     private void keep2() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println(beginPromptCharacter + " " + question + "[" + character + "/" + character2 + "]: ");
+        System.out.println(question + "[" + character + "/" + character2 + "]: ");
+        System.out.print(beginPromptCharacter + " ");
         this.answer = scanner.next();
         if (this.answer.toLowerCase().equals("y") || this.answer.toLowerCase().equals("yes")) {
             this.lastAnswer = true;

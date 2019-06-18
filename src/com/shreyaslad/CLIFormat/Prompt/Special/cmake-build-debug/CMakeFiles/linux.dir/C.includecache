@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shreyaslad/CLIFormat/src/com/shreyaslad/CLIFormat/Prompt/Special/linux.c
+linux.h
+/Users/shreyaslad/CLIFormat/src/com/shreyaslad/CLIFormat/Prompt/Special/linux.h
+
+/Users/shreyaslad/CLIFormat/src/com/shreyaslad/CLIFormat/Prompt/Special/linux.h
+stdio.h
+-
+

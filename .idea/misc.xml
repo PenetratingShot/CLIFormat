@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Special">
+    <contentRoot DIR="$PROJECT_DIR$" />
+  </component>
   <component name="JavadocGenerationManager">
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/JavaDoc" />
     <option name="OPTION_SCOPE" value="package" />
@@ -8,7 +11,5 @@
   <component name="ProjectKey">
     <option name="state" value="project://63537948-39a4-48a0-9c97-34259a0fa913" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_10" default="true" project-jdk-name="10" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="10" project-jdk-type="JavaSDK" />
 </project>

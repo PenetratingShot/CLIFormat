@@ -1,0 +1,3 @@
+/Users/shreyaslad/CLIFormat/src/com/shreyaslad/CLIFormat/Prompt/Special/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/shreyaslad/CLIFormat/src/com/shreyaslad/CLIFormat/Prompt/Special/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/shreyaslad/CLIFormat/src/com/shreyaslad/CLIFormat/Prompt/Special/cmake-build-debug/CMakeFiles/linux.dir

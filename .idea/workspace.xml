@@ -5,52 +5,69 @@
       <artifact name="CLIFormat:jar" />
     </artifacts-to-build>
   </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Project" targetName="linux" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="13f80b22-43ce-4cea-b181-b2166eb5046a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Special/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Special/RadioPrompt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Special/linux.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Special/linux.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLIFormat.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CLIFormat.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CLIFormat_jar/CLIFormat.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CLIFormat_jar/CLIFormat.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CLIFormat/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CLIFormat/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Special/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/StringPrompt.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Special/linux.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1743">
-              <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1294#1295#0" expanded="true" />
-                <element signature="e#1346#1347#0" expanded="true" />
-                <element signature="e#1464#1465#0" expanded="true" />
-                <element signature="e#1500#1501#0" expanded="true" />
-                <element signature="e#1778#1779#0" expanded="true" />
-                <element signature="e#1812#1813#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="63">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Special/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="573">
-              <caret line="115" column="12" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2525#2526#0" expanded="true" />
-                <element signature="e#2539#2570#0" expanded="true" />
-                <element signature="e#3579#3580#0" expanded="true" />
-                <element signature="e#4563#4594#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="42">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Special/linux.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -83,6 +100,11 @@
         <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/BooleanPrompt.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java" />
+        <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/RadioPrompt.java" />
+        <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Special/RadioPrompt.java" />
+        <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Special/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Special/linux.h" />
+        <option value="$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Special/linux.c" />
       </list>
     </option>
   </component>
@@ -100,7 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,23 +138,47 @@
               <item name="CLIFormat" type="b2602c69:ProjectViewProjectNode" />
               <item name="CLIFormat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CLIFormat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CLIFormat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shreyaslad" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CLIFormat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CLIFormat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shreyaslad" type="462c0819:PsiDirectoryNode" />
               <item name="CLIFormat" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CLIFormat" type="b2602c69:ProjectViewProjectNode" />
               <item name="CLIFormat" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shreyaslad" type="462c0819:PsiDirectoryNode" />
               <item name="CLIFormat" type="462c0819:PsiDirectoryNode" />
               <item name="Prompt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CLIFormat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="CLIFormat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="shreyaslad" type="462c0819:PsiDirectoryNode" />
+              <item name="CLIFormat" type="462c0819:PsiDirectoryNode" />
+              <item name="Prompt" type="462c0819:PsiDirectoryNode" />
+              <item name="Special" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -145,6 +190,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -158,7 +204,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.linux">
     <configuration name="StringPrompt" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.shreyaslad.CLIFormat.Prompt.StringPrompt" />
       <module name="CLIFormat" />
@@ -168,11 +214,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.StringPrompt" />
-      </list>
-    </recent_temporary>
+    <configuration name="linux" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="linux" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="linux">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.linux" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -201,7 +250,12 @@
       <workItem from="1560731557654" duration="523000" />
       <workItem from="1560732184902" duration="509000" />
       <workItem from="1560732909250" duration="1105000" />
-      <workItem from="1560738548677" duration="3625000" />
+      <workItem from="1560738548677" duration="7177000" />
+      <workItem from="1560800208110" duration="149000" />
+      <workItem from="1560802353576" duration="1543000" />
+      <workItem from="1560813322090" duration="159000" />
+      <workItem from="1560815687782" duration="469000" />
+      <workItem from="1560868341655" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="Created recursive prompt with escape sequence.">
       <created>1560458820662</created>
@@ -235,7 +289,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41192000" />
+    <option name="totallyTimeSpent" value="47375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -247,19 +301,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="807" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="807" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1874106" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20028612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32904148" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32904148" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32904148" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -281,38 +336,6 @@
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Database" order="9" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32904148" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32904148" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32904148" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Cargo" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Database" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -369,6 +392,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Prompt.java" />
     <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/NumericalPrompt.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="591">
+            <caret line="50" column="7" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/StringPrompt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1743">
@@ -385,27 +418,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="547">
-            <caret line="50" column="7" lean-forward="true" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2495#2496#0" expanded="true" />
+            <element signature="e#2525#2526#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/BooleanPrompt.java">
+    <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Special/RadioPrompt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="115" column="12" selection-start-line="115" selection-start-column="12" selection-end-line="115" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2525#2526#0" expanded="true" />
-            <element signature="e#2539#2570#0" expanded="true" />
-            <element signature="e#3579#3580#0" expanded="true" />
-            <element signature="e#4563#4594#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Special/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Special/linux.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shreyaslad/CLIFormat/Prompt/Special/linux.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
